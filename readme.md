@@ -35,7 +35,3 @@ A simple computer vision project that demonstrates how different types of noise 
 - NumPy
 - Matplotlib
 - scikit-image
-
----
-
-## 📂 Project Structure
