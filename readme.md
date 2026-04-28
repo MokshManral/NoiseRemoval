@@ -1,37 +1,48 @@
-# 🧹 Image Noise & Denoising Demo (OpenCV + Python)
+# 🖼️ Noise Removal using OpenCV
 
-A simple computer vision project that demonstrates how different types of noise affect images and how various filtering techniques can remove that noise. The project also evaluates performance using **PSNR** and **MSE** metrics.
+This project demonstrates basic image denoising techniques using Python and OpenCV.
 
----
+## 🚀 Features
+- Gaussian Blur
+- Median Blur
+- Bilateral Filter
+- Image visualization using Matplotlib
 
-## 📌 Features
-
-- Add different types of noise:
-  - Gaussian Noise
-  - Salt & Pepper Noise
-  - Uniform Noise
-
-- Apply denoising filters:
-  - Mean Filter
-  - Gaussian Filter
-  - Median Filter
-  - Bilateral Filter
-
-- Compare output using:
-  - Peak Signal-to-Noise Ratio (PSNR)
-  - Mean Squared Error (MSE)
-
-- Automatically:
-  - Displays visual comparison
-  - Saves output images
-  - Prints best filter for each noise type
-
----
-
-## 🧠 Tech Stack
-
+## 🛠️ Tech Stack
 - Python
 - OpenCV
-- NumPy
 - Matplotlib
-- scikit-image
+
+## 📂 Project Structure
+.
+├── noise_removal.py
+├── noisy_image1.jpg
+├── noisy_image2.jpg
+├── noisy_image3.jpg
+├── requirements.txt
+
+## ⚙️ Setup & Run
+
+1. Clone the repository:
+git clone https://github.com/MokshManral/NoiseRemoval.git
+
+2. Create virtual environment:
+python3 -m venv venv
+source venv/bin/activate
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Run the project:
+python noise_removal.py
+
+
+## 📸 Output
+Displays original and denoised images using:
+- Gaussian Blur
+- Median Blur
+- Bilateral Filter
+
+## 👨‍💻 Author
+Moksh
+>>>>>>> 0827430 (Refining the project and requirements)
